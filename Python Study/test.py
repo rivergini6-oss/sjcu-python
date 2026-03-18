@@ -39,6 +39,30 @@ print(variable)
 variable=5/2
 print(variable)
 
+# 문자열 데이터 포맷팅
+variable="%d books" % 3
+print(variable)
+
+variable="%s books"%"5신나고 재미있는"
+print(variable)
+
+#Format 함수 이용
+variable="I have {0}{1}".format(3,"books")
+print(variable)
+
+variable="I have {0}{1}".format(5, "cars")
+print(variable)
+
+#f문자열 포맷팅 이용
+number=3
+variable=f'I have {number+3}books'
+print(variable)
+
+
+
+
+
+
 
 
 
