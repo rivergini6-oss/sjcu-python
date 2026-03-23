@@ -20,4 +20,3 @@ print("Hello", "World")
 
 for variable in range(1, 10):
     print(variable, end=" ")
-    
