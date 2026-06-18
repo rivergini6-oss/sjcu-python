@@ -1,6 +1,6 @@
 # 사용자가 입력한 값은 문자열입니다.
 variable = input()
-print("Input String %s, Ineger %d" % (variable, int(variable)))
+print("Input String %s, Integer %d" % (variable, int(variable)))
 
 #사용자에게 메시지를 표시하면서 입력받을 수 있습니다.
 
